@@ -6,3 +6,5 @@ start:
 	npx babel-node scr/bin/brain-games.js
 publish:
 	npm publish --dry-run
+lint:
+	npx eslint
