@@ -5,4 +5,4 @@
 [![Build Status](https://travis-ci.org/Tvv95/frontend-project-lvl1.svg?branch=master)](https://travis-ci.org/Tvv95/frontend-project-lvl1)
 
 <h1>Игра: "Проверка на четность"</h1>
-<script id="asciicast-mhZfSfYJC1c8gDTj7GllKgn55" src="https://asciinema.org/a/mhZfSfYJC1c8gDTj7GllKgn55.js" async></script>
+<a href="https://asciinema.org/a/mhZfSfYJC1c8gDTj7GllKgn55" target="_blank"><img src="https://asciinema.org/a/mhZfSfYJC1c8gDTj7GllKgn55.svg" /></a>
