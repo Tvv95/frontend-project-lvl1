@@ -1,7 +1,6 @@
 #! /usr/bin/node
-import askName from '../index.js';
+/*  import * from '../index.js';
 
-console.log('Welcome to the Brain Games!');
-console.log('Answer "yes" if number even otherwise answer "no".');
-console.log();
+printGreeting('Answer "yes" if number even otherwise answer "no".');
 askName();
+coreGames(calcGame);    */
