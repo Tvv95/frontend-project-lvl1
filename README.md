@@ -5,3 +5,6 @@
 
 <h1>Игра: "Проверка на четность"</h1>
 <a href="https://asciinema.org/a/mhZfSfYJC1c8gDTj7GllKgn55" target="_blank"><img src="https://asciinema.org/a/mhZfSfYJC1c8gDTj7GllKgn55.svg" /></a>
+
+<h1>Игра: "Калькулятор"</h1>
+<a href="https://asciinema.org/a/v11H3jtTlM6deSPyvHHqqO7Vs" target="_blank"><img src="https://asciinema.org/a/v11H3jtTlM6deSPyvHHqqO7Vs.svg" /></a>
