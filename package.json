@@ -1,9 +1,10 @@
 {
-  "name": "first_project_test",
+  "name": "first_project_even_calc",
   "version": "1.0.0",
   "bin": {
     "brain-games": "dist/bin/brain-games.js",
-    "brain-even": "dist/bin/brain-even.js"
+    "brain-even": "dist/bin/games/brain-even.js",
+    "brain-calc": "dist/bin/games/brain-calc.js"
   },
   "main": "index.js",
   "files": [
