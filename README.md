@@ -8,3 +8,6 @@
 
 <h1>Игра: "Калькулятор"</h1>
 <a href="https://asciinema.org/a/v11H3jtTlM6deSPyvHHqqO7Vs" target="_blank"><img src="https://asciinema.org/a/v11H3jtTlM6deSPyvHHqqO7Vs.svg" /></a>
+
+<h1>Игра "НОД"</h1>
+<a href="https://asciinema.org/a/4CFRB7iLNO33WJrkYfEcmgHAU" target="_blank"><img src="https://asciinema.org/a/4CFRB7iLNO33WJrkYfEcmgHAU.svg" /></a>
