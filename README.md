@@ -4,16 +4,16 @@
 [![Build Status](https://travis-ci.org/Tvv95/frontend-project-lvl1.svg?branch=master)](https://travis-ci.org/Tvv95/frontend-project-lvl1)
 
 <h1>Игра: "Проверка на четность"</h1>
-<a href="https://asciinema.org/a/mhZfSfYJC1c8gDTj7GllKgn55" target="_blank"><img src="https://asciinema.org/a/mhZfSfYJC1c8gDTj7GllKgn55.svg" /></a>
+<a href="https://asciinema.org/a/5PPa0JUxZYQICEh9iA7TDiMGX" target="_blank"><img src="https://asciinema.org/a/5PPa0JUxZYQICEh9iA7TDiMGX.svg" /></a>
 
 <h1>Игра: "Калькулятор"</h1>
-<a href="https://asciinema.org/a/v11H3jtTlM6deSPyvHHqqO7Vs" target="_blank"><img src="https://asciinema.org/a/v11H3jtTlM6deSPyvHHqqO7Vs.svg" /></a>
+<a href="https://asciinema.org/a/gaPaVB69qOzdWIdL8ksgSK7U0" target="_blank"><img src="https://asciinema.org/a/gaPaVB69qOzdWIdL8ksgSK7U0.svg" /></a>
 
 <h1>Игра "НОД"</h1>
-<a href="https://asciinema.org/a/4CFRB7iLNO33WJrkYfEcmgHAU" target="_blank"><img src="https://asciinema.org/a/4CFRB7iLNO33WJrkYfEcmgHAU.svg" /></a>
+<a href="https://asciinema.org/a/6nPeMnqkrt59bHjHko0zWTK3P" target="_blank"><img src="https://asciinema.org/a/6nPeMnqkrt59bHjHko0zWTK3P.svg" /></a>
 
 <h1>Игра "Арифметическая прогрессия"</h1>
-<a href="https://asciinema.org/a/SN4mcJRm4AXtNqyaHC7CNCUHQ" target="_blank"><img src="https://asciinema.org/a/SN4mcJRm4AXtNqyaHC7CNCUHQ.svg" /></a>
+<a href="https://asciinema.org/a/orNnbbuPzFyRF8a6i22dH8vOa" target="_blank"><img src="https://asciinema.org/a/orNnbbuPzFyRF8a6i22dH8vOa.svg" /></a>
 
 <h1>Игра "Простое ли число?"</h1>
-<a href="https://asciinema.org/a/pWoSXYvujmSeeJ4smljL7HU6l" target="_blank"><img src="https://asciinema.org/a/pWoSXYvujmSeeJ4smljL7HU6l.svg" /></a>
+<a href="https://asciinema.org/a/4jpgGI6sOFVJEnk6cAybNSjW1" target="_blank"><img src="https://asciinema.org/a/4jpgGI6sOFVJEnk6cAybNSjW1.svg" /></a>
