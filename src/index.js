@@ -20,9 +20,9 @@ let counter = 0;
 
 export const coreGames = (gameFunc) => {
   const gameInfo = gameFunc();
-  console.log(`Question: ${gameInfo[0]}`);//+
+  console.log(`Question: ${gameInfo[0]}`);
   const answer = readlineSync.question('Your answer: ');
-  const corrAnswer = gameInfo[1];//+
+  const corrAnswer = gameInfo[1];
   if (answer === corrAnswer) {
     console.log('Correct!');
     counter += 1;
