@@ -1,9 +1,7 @@
-#! /usr/bin/node
+#! /usr/bin/env node
 import {
-  printGreeting, askName, coreGames,
+  coreGames,
 } from '../index';
-import evenGame from '../games/even-core';
+import evenGame from '../games/even';
 
-printGreeting('Answer "yes" if number even otherwise answer "no".');
-askName();
 coreGames(evenGame);
