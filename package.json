@@ -32,6 +32,7 @@
   },
   "homepage": "https://github.com/Tvv95/frontend-project-lvl1#readme",
   "dependencies": {
+    "eslint": "^6.1.0",
     "readline-sync": "^1.4.10"
   },
   "description": "first_project_hexlet",
