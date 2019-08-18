@@ -1,9 +1,7 @@
-#! /usr/bin/node
+#! /usr/bin/env node
 import {
-  printGreeting, askName, coreGames,
+  coreGames,
 } from '../index';
-import calcGame from '../games/calc-core';
+import calcGame from '../games/calc';
 
-printGreeting('What is the result of the expression?');
-askName();
 coreGames(calcGame);
