@@ -8,11 +8,9 @@ export const randomInteger = (min, max) => {
 export const coreGames = (game) => {
   let gameInfo = game();
   console.log('Welcome to the Brain Games!');
-  console.log(gameInfo[2]);
-  console.log();
+  console.log(`${gameInfo[2]}\n`);
   const userName = readlineSync.question('May I have your name? ');
-  console.log(`Hello, ${userName}!`);
-  console.log();
+  console.log(`Hello, ${userName}!\n`);
   let counter = 0;
   const core = () => {
     if (counter > 0) {
