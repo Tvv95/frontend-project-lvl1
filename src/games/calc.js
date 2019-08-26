@@ -1,29 +1,27 @@
-import { randomInteger } from '..';
+import startCoreGame from '..';
+import randomInteger from '../utils';
 
-export default () => {
-  const task = 'What is the result of the expression?';
-  const gameInformation = [];
-  const firstRandomNumber = randomInteger(1, 100);
-  const secondRandomNumber = randomInteger(1, 100);
-  const operations = [firstRandomNumber + secondRandomNumber,
-    firstRandomNumber - secondRandomNumber, firstRandomNumber * secondRandomNumber];
-  const operationsCount = 3;
-  switch (randomInteger(1, operationsCount)) {
+const task = 'What is the result of the expression?';
+const operations = ['+', '-', '*'];
+
+const getGameInformation = () => {
+  const firstValue = randomInteger(1, 100);
+  const secondValue = randomInteger(1, 100);
+  const currentOperation = randomInteger(0, operations.length - 1);
+  const gameInformation = [`${firstValue} ${operations[currentOperation]} ${secondValue}`];
+  switch (currentOperation) {
+    case 0:
+      gameInformation.push(String(firstValue + secondValue));
+      break;
     case 1:
-      gameInformation.push(`${firstRandomNumber} + ${secondRandomNumber}`);
-      gameInformation.push(String(operations[0]));
+      gameInformation.push(String(firstValue - secondValue));
       break;
     case 2:
-      gameInformation.push(`${firstRandomNumber} - ${secondRandomNumber}`);
-      gameInformation.push(String(operations[1]));
-      break;
-    case 3:
-      gameInformation.push(`${firstRandomNumber} * ${secondRandomNumber}`);
-      gameInformation.push(String(operations[2]));
+      gameInformation.push(String(firstValue * secondValue));
       break;
     default:
       break;
   }
-  gameInformation.push(task);
   return gameInformation;
 };
+export default () => startCoreGame(getGameInformation, task);

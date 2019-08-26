@@ -1,13 +1,14 @@
-import { randomInteger } from '..';
+import startCoreGame from '..';
+import randomInteger from '../utils';
 
-export default () => {
-  const task = 'Answer "yes" if number even otherwise answer "no".';
-  const gameInformation = [];
+const task = 'Answer "yes" if number even otherwise answer "no".';
+const isEven = (number) => number % 2 === 0;
+
+const getGameInformation = () => {
   const question = randomInteger(1, 100);
-  gameInformation.push(question);
-  const isEven = (number) => number % 2 === 0;
   const correctAnswer = isEven(question) ? 'yes' : 'no';
-  gameInformation.push(correctAnswer);
-  gameInformation.push(task);
+  const gameInformation = [question, correctAnswer];
   return gameInformation;
 };
+
+export default () => startCoreGame(getGameInformation, task);
