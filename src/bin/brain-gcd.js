@@ -1,7 +1,4 @@
 #! /usr/bin/env node
-import {
-  coreGames,
-} from '../index';
-import gcdGame from '../games/gcd';
+import startGcdGame from '../games/gcd';
 
-coreGames(gcdGame);
+startGcdGame();
