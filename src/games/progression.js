@@ -3,24 +3,24 @@ import randomInteger from '../utils';
 
 const task = 'What number is missing in the progression?';
 const progressionLength = 10;
-let correctAnswer;
 
-const getGameInformation = () => {
-  let currentValue = randomInteger(1, 100);
-  const progressionValue = randomInteger(1, 100);
+const getGameData = () => {
+  const startingValue = randomInteger(1, 100);
+  const progressionStep = randomInteger(1, 100);
+  const lastValue = startingValue + progressionStep * progressionLength;
   const question = [];
-  const unknownValue = randomInteger(1, progressionLength);
-  for (let i = 1; i <= progressionLength; i += 1) {
-    if (i === unknownValue) {
-      correctAnswer = currentValue;
+  let correctAnswer;
+  const hiddenValue = startingValue + progressionStep * randomInteger(1, progressionLength);
+  for (let i = startingValue; i < lastValue; i += progressionStep) {
+    if (i === hiddenValue) {
+      correctAnswer = String(i);
       question.push('..');
     } else {
-      question.push(currentValue);
+      question.push(i);
     }
-    currentValue += progressionValue;
   }
-  const gameInformation = [question, String(correctAnswer)];
-  return gameInformation;
+  const gameData = [question, correctAnswer];
+  return gameData;
 };
 
-export default () => startCoreGame(getGameInformation, task);
+export default () => startCoreGame(getGameData, task);
