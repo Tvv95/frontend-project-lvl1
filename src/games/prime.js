@@ -1,7 +1,7 @@
 import startCoreGame from '..';
 import randomInteger from '../utils';
 
-const isSimple = (value) => {
+const isPrime = (value) => {
   if (value < 2) {
     return false;
   }
@@ -17,11 +17,11 @@ const isSimple = (value) => {
   return iter(2);
 };
 const task = 'Answer "yes" if given number is prime. Otherwise answer "no".';
-const getGameInformation = () => {
+const getGameData = () => {
   const question = randomInteger(1, 100);
-  const correctAnswer = isSimple(question) ? 'yes' : 'no';
-  const gameInformation = [question, correctAnswer];
-  return gameInformation;
+  const correctAnswer = isPrime(question) ? 'yes' : 'no';
+  const gameData = [question, correctAnswer];
+  return gameData;
 };
 
-export default () => startCoreGame(getGameInformation, task);
+export default () => startCoreGame(getGameData, task);
