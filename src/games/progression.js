@@ -7,17 +7,17 @@ const progressionLength = 10;
 const getGameData = () => {
   const startingValue = randomInteger(1, 100);
   const progressionStep = randomInteger(1, 100);
-  const lastValue = startingValue + progressionStep * progressionLength;
   const question = [];
-  let correctAnswer;
-  const hiddenValue = startingValue + progressionStep * randomInteger(1, progressionLength);
-  for (let i = startingValue; i < lastValue; i += progressionStep) {
+  const hiddenValue = randomInteger(0, progressionLength - 1);
+  const correctAnswer = String(startingValue + progressionStep * hiddenValue);
+  let currentValue = startingValue;
+  for (let i = 0; i < progressionLength; i += 1) {
     if (i === hiddenValue) {
-      correctAnswer = String(i);
       question.push('..');
     } else {
-      question.push(i);
+      question.push(currentValue);
     }
+    currentValue += progressionStep;
   }
   const gameData = [question, correctAnswer];
   return gameData;
