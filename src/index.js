@@ -8,10 +8,9 @@ export default (getGameData, task) => {
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!\n`);
   for (let i = 0; i < roundsCount; i += 1) {
-    const gameData = getGameData();
-    console.log(`Question: ${gameData[0]}`);
+    const [question, correctAnswer] = getGameData();
+    console.log(`Question: ${question}`);
     const answer = readlineSync.question('Your answer: ');
-    const correctAnswer = gameData[1];
     if (answer === correctAnswer) {
       console.log('Correct!');
     } else {
