@@ -7,17 +7,17 @@ const operations = ['+', '-', '*'];
 const getGameData = () => {
   const firstValue = randomInteger(1, 100);
   const secondValue = randomInteger(1, 100);
-  const currentOperation = randomInteger(0, operations.length - 1);
-  const question = [`${firstValue} ${operations[currentOperation]} ${secondValue}`];
+  const currentOperation = operations[randomInteger(0, operations.length - 1)];
+  const question = `${firstValue} ${currentOperation} ${secondValue}`;
   let correctAnswer;
-  switch (operations[currentOperation]) {
-    case operations[0]:
+  switch (currentOperation) {
+    case '+':
       correctAnswer = (String(firstValue + secondValue));
       break;
-    case operations[1]:
+    case '-':
       correctAnswer = (String(firstValue - secondValue));
       break;
-    case operations[2]:
+    case '*':
       correctAnswer = (String(firstValue * secondValue));
       break;
     default:
