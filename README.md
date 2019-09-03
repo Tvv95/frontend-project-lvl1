@@ -1,3 +1,14 @@
+<h1>Описание, установка и запуск</h1>
+<p>В рамках проекта реализован набор мини-игр, запускаемых из консоли.<br>
+  Для установки требуется ввести: <code>$ make install</code></p>
+<ul>
+  <li>Игра: "Проверка на четность". Запуск: <code>$ brain-even</code></li>
+  <li>Игра: "Калькулятор". Запуск: <code>$ brain-calc</code></li>
+  <li>Игра "НОД". Запуск: <code>$ brain-gcd</code></li>
+  <li>Игра "Арифметическая прогрессия". Запуск: <code>$ brain-progression</code></li>
+  <li>Игра "Простое ли число?". Запуск: <code>$ brain-prime</code></li>
+</ul>
+
 <h1>CodeClimate and Travis-ci</h1>
 <a href="https://codeclimate.com/github/Tvv95/frontend-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/f0498ea40090077977dd/maintainability" /></a>
 
